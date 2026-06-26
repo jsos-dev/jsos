@@ -1,6 +1,8 @@
-# JSOS
+# 🖥️ JSOS
 
-> A browser-based desktop environment. No backend. No database. No Docker. Just open the URL and you have a desktop.
+> A browser-based Web desktop environment running Node.js/Python/Wasm. No backend. No database. No Docker. Just open the URL and you have a desktop.
+
+🌐 **Official Website:** [https://jsos.dev](https://jsos.dev)
 
 [中文文档](README_CN.md)
 
@@ -10,15 +12,20 @@
 
 ---
 
-## What is this?
+## 📖 What is this?
 
-JSOS (JavaScript OS) runs a full desktop environment in your browser — with windows, a taskbar, wallpapers, app management, and a terminal — all powered by [WebContainer](https://webcontainers.io) (in-browser Node.js). Think of it as a lightweight, self-hosted cloud desktop that lives in a single static folder.
+JSOS (JavaScript OS) runs a full desktop environment in your browser — with windows, a taskbar, wallpapers, app management, and a terminal — all powered by [WebContainer](https://webcontainers.io) (in-browser Node.js/Python/Wasm). Think of it as a lightweight, self-hosted cloud desktop that lives in a single static folder.
 
-Apps are packaged as ZIP files and run as isolated Node.js processes inside WebContainer. Install, run, uninstall — all from the browser.
+✅ **Run most Node.js applications and tools** directly in your browser  
+✅ **Develop your own applications** with a built-in terminal and code editor  
+✅ **All data stored locally** in your browser — your privacy is protected  
+✅ **Fork and deploy locally** to ensure complete control over your data and security
+
+Apps are packaged as ZIP files and run as isolated processes inside WebContainer. Install, run, uninstall — all from the browser.
 
 ---
 
-## Deployment
+## 🚀 Deployment
 
 JSOS is a set of static files. Deploy them anywhere that supports custom HTTP headers.
 
@@ -75,7 +82,7 @@ server {
 
 ---
 
-## Custom Headers — Why They Matter
+## ⚙️ Custom Headers — Why They Matter
 
 WebContainer requires **Cross-Origin Isolation** to function. This is a browser security feature that isolates a page from its browser context, enabling `SharedArrayBuffer` and other low-level APIs that WebContainer depends on.
 
@@ -98,28 +105,18 @@ Two headers must be set on **every HTML response**:
 
 ---
 
-## Download
+## ⭐ Star
 
-> **Note:** Currently, only the pre-built deployment package is available for download. The source code is being organized and optimized.
-
-Upload the files to any static hosting provider and you have a working JSOS instance.
+If you like JSOS, please give us a ⭐! Your support helps us speed up source code organization and open-source plan progress.
 
 ---
 
-## Star to Open Source
-
-This project is currently available as a deployment package only. If this repository reaches **1,000 stars**, the full source code will be released under an open-source license.
-
-If you find JSOS useful, consider giving it a star — it helps others discover the project and brings us closer to open-sourcing.
-
----
-
-## Feedback
+## 💬 Feedback
 
 For bug reports, feature requests, app submissions, or general discussion, please use [GitHub Issues](https://github.com/jsos-dev/jsos/issues).
 
 ---
 
-## License
+## 📜 License
 
-Currently: **Proprietary — deployment use only.**
+[MIT License](LICENSE)
