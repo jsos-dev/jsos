@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dev.jsos.terminal",
+    "name": {
+      "en": "Terminal",
+      "zh-CN": "终端"
+    },
+    "description": {
+      "en": "Interactive shell terminal",
+      "zh-CN": "交互式 Shell 终端"
+    },
+    "version": "1.1.11",
+    "zipUrl": "/apps/dev.jsos.terminal-1.1.11.zip"
+  },
+  {
+    "id": "dev.jsos.nodejs-repl",
+    "name": {
+      "en": "Node.js",
+      "zh-CN": "Node.js"
+    },
+    "description": {
+      "en": "Node.js REPL environment",
+      "zh-CN": "Node.js REPL 运行环境"
+    },
+    "version": "1.0.2",
+    "zipUrl": "/apps/dev.jsos.nodejs-repl-1.0.2.zip"
+  },
+  {
+    "id": "dev.jsos.filemanager",
+    "name": {
+      "en": "File Manager",
+      "zh-CN": "文件"
+    },
+    "description": {
+      "en": "A web-based file manager for browsing and managing files",
+      "zh-CN": "基于 Web 的文件管理器，用于浏览和管理文件"
+    },
+    "version": "0.3.7",
+    "zipUrl": "/apps/dev.jsos.filemanager-0.3.7.zip"
+  },
+  {
+    "id": "dev.jsos.settings",
+    "name": {
+      "en": "Settings",
+      "zh-CN": "设置"
+    },
+    "description": {
+      "en": "System settings and preferences",
+      "zh-CN": "系统设置与偏好"
+    },
+    "version": "1.2.26",
+    "zipUrl": "/apps/dev.jsos.settings-1.2.26.zip"
+  },
+  {
+    "id": "dev.jsos.appmanager",
+    "name": {
+      "en": "App Manager",
+      "zh-CN": "应用管理"
+    },
+    "description": {
+      "en": "Manage installed applications",
+      "zh-CN": "管理系统中的应用"
+    },
+    "version": "1.2.10",
+    "zipUrl": "/apps/dev.jsos.appmanager-1.2.10.zip"
+  },
+  {
+    "id": "dev.jsos.docs",
+    "name": {
+      "en": "Docs",
+      "zh-CN": "文档"
+    },
+    "description": {
+      "en": "JSOS development documentation and API reference",
+      "zh-CN": "JSOS 开发文档和 API 参考"
+    },
+    "version": "1.2.2",
+    "zipUrl": "/apps/dev.jsos.docs-1.2.2.zip"
+  }
+]
