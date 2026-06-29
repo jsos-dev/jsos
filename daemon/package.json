@@ -1,0 +1,26 @@
+{
+  "name": "jsos-daemon",
+  "version": "1.1.8",
+  "description": "JSOS daemon service running inside WebContainer",
+  "main": "jsos-daemon.js",
+  "scripts": {
+    "start": "node jsos-daemon.js",
+    "test": "node test/test-api.js",
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "express": "^4.21.0",
+    "serve": "^14.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsos-dev/jsos-daemon"
+  },
+  "bugs": {
+    "url": "https://github.com/jsos-dev/jsos-daemon/issues"
+  },
+  "keywords": ["jsos", "daemon", "webcontainer"],
+  "author": "JSOS",
+  "license": "MIT"
+}

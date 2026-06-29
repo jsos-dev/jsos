@@ -61,8 +61,8 @@
       "en": "Manage installed applications",
       "zh-CN": "管理系统中的应用"
     },
-    "version": "1.2.13",
-    "zipUrl": "/apps/dev.jsos.appmanager-1.2.13.zip"
+    "version": "1.2.15",
+    "zipUrl": "/apps/dev.jsos.appmanager-1.2.15.zip"
   },
   {
     "id": "dev.jsos.docs",
@@ -74,7 +74,7 @@
       "en": "JSOS development documentation and API reference",
       "zh-CN": "JSOS 开发文档和 API 参考"
     },
-    "version": "1.2.3",
-    "zipUrl": "/apps/dev.jsos.docs-1.2.3.zip"
+    "version": "1.2.5",
+    "zipUrl": "/apps/dev.jsos.docs-1.2.5.zip"
   }
 ]
